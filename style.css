@@ -922,25 +922,12 @@
     .service-card:hover{
      transform: translateY(-2px);
      transition: 0.8s;
-
 }
 }
 
 /* Ajuste de navegação e espaçamento das seções */
 #sobre, #plan, #contato { scroll-margin-top: 105px; }
 .about, .planos, .contact { position: relative; }
-
-/* Chips decorativos com movimento suave */
-.chip-top { animation: chipFloatTop 3.8s ease-in-out infinite; }
-.chip-bottom { animation: chipFloatBottom 4.4s ease-in-out infinite; }
-@keyframes chipFloatTop {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-9px); }
-}
-@keyframes chipFloatBottom {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(8px); }
-}
 
 /* Footer centralizado com Instagram */
 .footer { flex-direction: column; justify-content: center; text-align: center; gap: 14px; }
@@ -990,14 +977,6 @@ body::-webkit-scrollbar {
  .orbit-a,
     .orbit-b {
       max-width: 100%;
-    }
-
-    .floating-chip {
-      max-width: calc(100% - 24px);
-      white-space: nowrap;
-      font-size: 8px;
-      letter-spacing: 1px;
-      padding: 9px 10px;
     }
   .chip-top { right: 8px; }
   .chip-bottom { left: 8px; }
