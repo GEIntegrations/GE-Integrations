@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>G&E Integrations | Tecnologia que impulsiona</title>
+  <link rel="shortcut icon" href="logo_atualizada.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <img src="logo_atualizada.png" alt="" width="80px">
+
+
+    <nav class="nav" id="nav">
+      <a href="#">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#plan">Planos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a class="header-cta" href="#contato">Vamos conversar <span>↗</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu"
+      aria-expanded="false"><i></i><i></i><i></i></button>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="inicio">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> TECNOLOGIA • AUTOMAÇÃO • INOVAÇÃO</div>
+        <h1>Ideias conectadas.<br><span>Resultados</span> que<br>movem o futuro.</h1>
+        <p class="hero-text">Criamos experiências digitais e soluções inteligentes para simplificar processos,
+          fortalecer marcas e impulsionar negócios.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#sobre">Saiba mais<b>↓</b></a>
+        </div>
+
+      </div>
+      <div class="hero-visual">
+        <div class="visual-glow"></div>
+        <img class="hero-logo" src="logo_atualizada.png" alt="Logo G&E Integrations" />
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="floating-chip chip-top"> <span>✦</span> IDEIAS EM MOVIMENTO</div>
+        <div class="floating-chip chip-bottom"><span class="chip-dot"></span> SOLUÇÕES SOB MEDIDA</div>
+      </div>
+    </section>
+    <section class="about section-wrap" id="sobre">
+      <div class="section-kicker">01 / QUEM SOMOS</div>
+      <div class="about-grid">
+        <h2>Tecnologia para seu<br><span>negócio.</span></h2>
+        <div class="about-copy">
+          <p>A G&E Integrations tem como objetivo trazer para a sua empresa uma tecnologia eficiente para tornar seu negócio mais rentável. Unindo
+            tecnologia e estratégia para desenvolver soluções que fazem sentido para cada negócio.</p>
+        </div>
+      </div>
+      <div class="stats-row">
+        <div><strong>01</strong><span>Olhar estratégico</span></div>
+        <div><strong>02</strong><span>Soluções personalizadas</span></div>
+        <div><strong>03</strong><span>Foco em evolução</span></div>
+      </div>
+    </section>
+    <section class="planos section-wrap" id="plan">
+      <div class="section-kicker" >02 / PLANOS</div>
+    <section class="service-grid">
+    
+      <!-- PLANO BÁSICO -->
+
+      <article class="service-card" >
+        <div class="initial-content">
+          <h3>PLANO BÁSICO</h3>
+          <p class="paragrafo">Sites modernos, responsivos e alinhados à identidade da sua marca para apresentar seu negócio com
+            profissionalismo.</p>
+          <a href="#" class="link" onclick="showDetails(event, this)">Ver detalhes ↗</a>
+        </div>
+
+        <div class="details-content">
+          <h2>Plano Básico</h2>
+          <p>Uma presença digital profissional para sua empresa começar a crescer.</p>
+
+          <h3>O que está incluso:</h3>
+          <ul>
+            <li>Criação de site profissional.</li>
+            <li>Design moderno e personalizado.</li>
+            <li>Adaptação para celulares e computadores.</li>
+            <li>Botões de contato e WhatsApp.</li>
+            <li>Apresentação dos serviços da empresa.</li>
+          </ul>
+
+          <a href="#contato">Solicitar orçamento ↗</a>
+          <br>
+          <button class="back-plans" onclick="backPlans()">← Voltar aos planos</button>
+        </div>
+
+      </article>
+
+      <!-- PLANO INTERMEDIÁRIO -->
+      <article class="service-card">
+
+        <div class="initial-content">
+          <h3>PLANO INTERMEDIÁRIO</h3>
+          <p class="paragrafo">Menos tarefas repetitivas e mais tempo para o que importa. Simplifique fluxos e organize processos.
+          </p>
+          <a href="#" class="link" onclick="showDetails(event, this)">Ver detalhes ↗</a>
+        </div>
+
+        <div class="details-content">
+          <h2>Plano Intermediário</h2>
+          <p>Automatize processos e transforme a rotina da sua empresa.</p>
+
+          <h3>O que está incluso:</h3>
+          <ul>
+            <li>Todos os recursos do Plano Básico.</li>
+            <li>Automação de tarefas.</li>
+            <li>Integração entre ferramentas.</li>
+            <li>Formulários inteligentes.</li>
+            <li>Organização de processos empresariais.</li>
+          </ul>
+
+          <a href="#contato">Solicitar orçamento ↗</a>
+          <br>
+          <button class="back-plans" onclick="backPlans()">← Voltar aos planos</button>
+        </div>
+
+      </article>
+
+      <!-- PLANO PREMIUM -->
+      <article class="service-card">
+
+        <div class="initial-content">
+          <h3>PLANO PREMIUM</h3>
+          <p class="paragrafo">Leve seus produtos para o digital com uma experiência de compra clara, prática e preparada para
+            crescer.</p>
+          <a href="#" class="link" onclick="showDetails(event, this)">Ver detalhes ↗</a>
+        </div>
+
+        <div class="details-content">
+          <h2>Plano Premium</h2>
+          <p>Uma solução digital completa para empresas que desejam crescer e escalar.</p>
+
+          <h3>O que está incluso:</h3>
+          <ul>
+            <li>Todos os recursos dos planos anteriores.</li>
+            <li>Desenvolvimento de sistemas personalizados.</li>
+            <li>Integração com banco de dados.</li>
+            <li>Plataforma de vendas online.</li>
+            <li>Automações avançadas.</li>
+            <li>Suporte e melhorias personalizadas.</li>
+          </ul>
+
+          <a href="#contato">Solicitar orçamento ↗</a>
+          <br>
+          <button class="back-plans" onclick="backPlans()">← Voltar aos planos</button>
+        </div>
+
+      </article>
+
+    </section>
+    </section>
+
+    
+
+
+
+    <section class="contact section-wrap" id="contato">
+      <div class="section-kicker">03 / FALE COM A GENTE</div>
+      <div class="contact-panel">
+        <div>
+          <h2>Seu negócio pode<br><span>mais.</span></h2>
+          <p>Conte um pouco sobre sua ideia. Vamos conversar sobre como a tecnologia pode ajudar.</p>
+        </div>
+        <form id="contactForm">
+          <label for="name">Seu nome</label><input id="name" name="name" placeholder="Como podemos chamar você?"
+            required>
+          <label for="email">E-mail ou WhatsApp</label><input id="email" name="email" placeholder="Seu melhor contato"
+            required>
+          <label for="message">Como podemos ajudar?</label><textarea id="message" name="message" rows="3"
+            placeholder="Quero criar um site, automatizar processos..." required></textarea>
+          <button class="button button-primary" type="submit">Enviar mensagem <b>↗</b></button>
+          <small id="formNote">O botão prepara uma mensagem para você enviar pelo WhatsApp. Configure o número no
+            arquivo script.js.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="footer-instagram" href="https://www.instagram.com/geintegrations/" target="_blank" rel="noopener noreferrer" aria-label="Instagram da G&E Integrations">
+      <svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor" stroke="none"/></svg>
+      <span>@geintegrations</span>
+    </a>
+    <span>© <span id="year"></span> G&E Integrations. Todos os direitos reservados.</span>
+  </footer>
+  <script>
+    // G&E Integrations — interações do site
+    const menuToggle = document.getElementById("menuToggle");
+    const nav = document.getElementById("nav");
+
+    menuToggle.addEventListener("click", () => {
+      const isOpen = nav.classList.toggle("open");
+      menuToggle.setAttribute("aria-expanded", String(isOpen));
+      menuToggle.setAttribute("aria-label", isOpen ? "Fechar menu" : "Abrir menu");
+    });
+
+    nav.querySelectorAll("a").forEach(link => {
+      link.addEventListener("click", (event) => {
+        nav.classList.remove("open");
+        menuToggle.setAttribute("aria-expanded", "false");
+        const targetId = link.getAttribute("href");
+        if (targetId && targetId.startsWith("#") && targetId.length > 1) {
+          const target = document.querySelector(targetId);
+          if (target) { event.preventDefault(); target.scrollIntoView({ behavior: "smooth", block: "start" }); }
+        }
+      });
+    });
+
+    document.getElementById("year").textContent = new Date().getFullYear();
+    const WHATSAPP_NUMBER = "5561991654484";
+
+    document.getElementById("contactForm").addEventListener("submit", (event) => {
+      event.preventDefault();
+      const name = document.getElementById("name").value.trim();
+      const contact = document.getElementById("email").value.trim();
+      const message = document.getElementById("message").value.trim();
+
+      const text = ` Nome: ${name} \n Contato: ${contact}\n Solicitação: ${message}`;
+
+      const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${text}`;
+      const mensagemFormatada = encodeURIComponent(text)
+      window.open(url, '_blank')
+    });
+
+    let plansScrollPosition = 0;
+
+    function showDetails(event, element) {
+      event.preventDefault();
+      plansScrollPosition = window.scrollY;
+
+      const selectedCard = element.closest(".service-card");
+      const cards = document.querySelectorAll(".service-card");
+
+      cards.forEach(card => {
+        if (card !== selectedCard) {
+          card.classList.add("hidden");
+        } else {
+          card.classList.add("expanded");
+        }
+      });
+    }
+
+    function backPlans() {
+      const cards = document.querySelectorAll(".service-card");
+
+      cards.forEach(card => {
+        card.classList.remove("expanded");
+        card.classList.remove("hidden");
+      });
+      requestAnimationFrame(() => window.scrollTo({ top: plansScrollPosition, behavior: "instant" }));
+    }
+
+
+  </script>
+</body>
+
+</html>
