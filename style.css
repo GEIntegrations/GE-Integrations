@@ -987,14 +987,6 @@ body::-webkit-scrollbar {
     position: relative;
     overflow: hidden;
   }
-  .orbit-a, .orbit-b { max-width: 100%; }
-  .floating-chip {
-    max-width: calc(100% - 24px);
-    white-space: nowrap;
-    font-size: 8px;
-    letter-spacing: 1px;
-    padding: 9px 10px;
-  }
   .chip-top { right: 8px; }
   .chip-bottom { left: 8px; }
 }
