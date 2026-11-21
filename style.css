@@ -698,29 +698,6 @@
  }
 
 
- 
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
- 
-
-
-
-
-
  /* Animação dos planos */
  .service-grid {
     width: min(1160px, 90%);
@@ -1001,6 +978,9 @@ body::-webkit-scrollbar {
     max-width: 100%;
     overflow-x: hidden;
   }
+ main{
+    padding: 15px;
+ }
   main, .section-wrap { width: 100%; }
   .hero-visual {
     width: 100%;
